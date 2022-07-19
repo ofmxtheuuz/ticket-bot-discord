@@ -15,7 +15,7 @@ use Discord\Parts\Channel\Overwrite;
 
 
 $discord = new Discord([
-    'token' => 'OTgyNjM4NTEyNDg4NzIyNDUy.Glac7Y.-s_kHfosAgoIGpTZu0awHNNxtHJnnNsX79AEWg',
+    'token' => '',
 ]);
 
 $discord->on('ready', function (Discord $discord) {
